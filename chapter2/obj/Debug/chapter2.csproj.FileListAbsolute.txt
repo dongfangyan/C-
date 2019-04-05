@@ -1,0 +1,10 @@
+E:\教材\源码\chapter2\chapter2\bin\chapter2.dll
+E:\教材\源码\chapter2\chapter2\bin\chapter2.pdb
+E:\教材\源码\chapter2\chapter2\obj\Debug\ResolveAssemblyReference.cache
+E:\教材\源码\chapter2\chapter2\obj\Debug\chapter2.dll
+E:\教材\源码\chapter2\chapter2\obj\Debug\chapter2.pdb
+E:\教材\教材\源码\chapter2\chapter2\bin\chapter2.dll
+E:\教材\教材\源码\chapter2\chapter2\bin\chapter2.pdb
+E:\教材\教材\源码\chapter2\chapter2\obj\Debug\ResolveAssemblyReference.cache
+E:\教材\教材\源码\chapter2\chapter2\obj\Debug\chapter2.dll
+E:\教材\教材\源码\chapter2\chapter2\obj\Debug\chapter2.pdb

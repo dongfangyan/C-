@@ -1,0 +1,80 @@
+﻿body {
+}
+#top
+{
+	background-image: url('../images/1_11.jpg');
+	width: 950px;
+	height: 200px;
+	margin: auto;
+	padding: 0px;
+}
+
+#left
+{
+    width: 200px;
+    height: 500px;
+    float: left;
+    padding: 0px;
+    background-image: url('../images/1_4.JPG');
+}
+
+
+#right
+{
+	background-image: url('../images/1_3.jpg');
+	background-repeat: repeat;
+	width: 750px;
+	height: 500px;
+	padding: 0px;
+	margin-left: 200px;
+}
+
+
+#foot
+{
+	background-image: url('../images/1_2.jpg');
+	width: 950px;
+	height: 32px;
+	margin: auto;
+	clear: both;
+}
+
+#baohan
+{
+	margin: 0 auto;
+	width: 950px;
+	padding:0;
+	height :500px;
+}
+#center
+{
+	background-color: #CCFF99;
+	width: 550px;
+	height: 500px;
+	float: left;
+	padding: 0px;
+}
+#right_3
+{
+	background-image: url('../images/1_3.jpg');
+	width: 200px;
+	height: 500px;
+	padding: 0px;
+	float: right;
+}
+
+#bottom {
+	clear:both;
+	background-image: url('../images/bottom4.jpg');
+	height: 50px;
+	width: 950px;
+	background-repeat: no-repeat;
+	margin: auto;
+	
+}
+
+#contain_all
+{
+	margin: auto;
+	width: 950px;
+}

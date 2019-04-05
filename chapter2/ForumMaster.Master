@@ -1,0 +1,52 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="ForumMaster.master.cs" Inherits="chapter2.ForumMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>程序员学习交流论坛</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 121%;
+        }
+    </style>
+</head>
+<body>
+       <form id="form1" runat="server">
+    <div>
+        <div style="text-align: center">
+            <table style="width: 705px; height: 439px">
+                <tr style="height:80px; width:100%">
+                    <td colspan="2" style="text-align: center; background-image: url(image/BBS.jpg); height: 78px;">
+                        程序员学习交流论坛<br />
+                        <br />
+                        
+                        <asp:LinkButton ID="lbtnLogin" runat="server">登录</asp:LinkButton>
+                        &nbsp;
+                        <asp:LinkButton ID="lbtnRegister" runat="server">用户注册</asp:LinkButton></td>
+                </tr>
+                <tr >
+                    <td style="width: 20%; vertical-align: top; text-align: left;">
+                        <asp:LinkButton ID="lbtnNet" runat="server" onclick="lbtnNet_Click">.NET</asp:LinkButton><br />
+  
+                        <asp:LinkButton ID="lbtnJava" runat="server" onclick="lbtnJava_Click">Java</asp:LinkButton><br />
+                        <asp:LinkButton ID="lbtnDelphi" runat="server" onclick="lbtnDelphi_Click">Delphi</asp:LinkButton><br />
+                        <asp:LinkButton ID="lbtnOracle" runat="server" onclick="lbtnOracle_Click">Oracle</asp:LinkButton></td>
+                    <td style="vertical-align: top;height:90%" class="style1">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                        &nbsp;</td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="height: 26px">
+                        版权所有：虚拟公司</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

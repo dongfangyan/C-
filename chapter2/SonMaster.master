@@ -1,0 +1,23 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/ParentMaster.Master" AutoEventWireup="true" CodeBehind="SonMaster.master.cs" Inherits="chapter2.SonMaster" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <div>
+        <table style="width: 705px; height: 439px">
+                <tr >
+                    <td style="width: 20%; vertical-align: top; text-align: left;">
+                        <asp:LinkButton ID="lbtnNet" runat="server" onclick="lbtnNet_Click">.NET</asp:LinkButton><br />
+  
+                        <asp:LinkButton ID="lbtnJava" runat="server" onclick="lbtnJava_Click">Java</asp:LinkButton><br />
+                        <asp:LinkButton ID="lbtnDelphi" runat="server" onclick="lbtnDelphi_Click">Delphi</asp:LinkButton><br />
+                        <asp:LinkButton ID="lbtnOracle" runat="server" onclick="lbtnOracle_Click">Oracle</asp:LinkButton>
+                    </td>
+                    <td style="vertical-align: top;height:90%" class="style1">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                </tr>
+            </table>
+
+   </div>
+</asp:Content>

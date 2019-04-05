@@ -1,0 +1,82 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Sitemember.master.cs" Inherits="SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+   
+    </head>
+<body>
+    <form runat="server">
+    <div class="page">
+        <div class="header">
+           
+            <div class="loginDisplay">
+                <div class ="headleft">                
+                 </div>
+                 <div class ="headright">
+                 
+                  
+                      <br />
+                     
+                      <asp:HyperLink ID="hpyLogin" runat="server" NavigateUrl="~/userlogin.aspx">登录</asp:HyperLink>
+                      　|　<asp:HyperLink ID="hpyregister" runat="server" NavigateUrl="~/register.aspx" 
+                          Target="_blank">注册</asp:HyperLink>
+                      　｜&nbsp;<asp:HyperLink ID="Hypadminlogin" runat="server" 
+                          NavigateUrl="~/admin/adminlogin.aspx" Target="_blank">管理员</asp:HyperLink>
+                 
+                     <asp:Panel ID="Panel1" runat="server">
+                     <asp:HyperLink ID="hypmycart" runat="server" NavigateUrl="~/members/Cart.aspx" 
+                         Font-Size="Small">购物车</asp:HyperLink>
+                      　|　<asp:HyperLink ID="hypmyorder" runat="server" NavigateUrl="~/members/OrderDetail.aspx" 
+                          Target="_blank" Font-Size="Small">我的订单</asp:HyperLink>
+                     </asp:Panel>
+                        
+          
+                      <br />
+                      <br />
+               <div>   
+                <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal">
+                    <Items>
+                        <asp:MenuItem NavigateUrl="~/Default.aspx" Text="首页"/>
+                        <asp:MenuItem NavigateUrl="~/ProductInfo.aspx?typename=手机" Text="手机"/>
+                        <asp:MenuItem NavigateUrl="~/ProductInfo.aspx?typename=相机" Text="相机"/>
+                        <asp:MenuItem NavigateUrl="~/ProductInfo.aspx?typename=电脑" Text="电脑"/>
+                        <asp:MenuItem NavigateUrl="" Text="品牌直销"/>
+                        <asp:MenuItem NavigateUrl="" Text="今日团购"/>
+                       
+                    </Items>
+                </asp:Menu>
+                
+                 </div>  
+                 <br /> 
+          
+                 </div>
+            </div>
+           
+           
+        </div>
+
+         <div  class="loginmessage">
+              <asp:Label ID="lblmessage" runat="server"></asp:Label>
+            </div>
+        <div class="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+        </div>
+        <div class="clear">
+        </div>
+   
+    <div class="footer">
+      
+           
+ 
+        购物指南　支付方式　配送方式　售后服务　特色服务<br />
+        关于我们　联系我们　人才招聘　商家入驻　广告服务　友情链接　销售联盟</div>
+     </div>
+    </form>
+</body>
+</html>

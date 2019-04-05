@@ -1,0 +1,22 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="2_3DefaultContentMaster.master.cs" Inherits="chapter2._2_3DefaultContentMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>默认内容母版页</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+     <form id="form1" runat="server">
+    <div>
+        <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+            <asp:Label ID="Label1" runat="server" Text="这是母版页ContentPlaceHolder1的默认内容。"></asp:Label></asp:contentplaceholder>
+        <br />
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+            <asp:Label ID="Label2" runat="server" Text="这是母版页ContentPlaceHolder2的默认内容。"></asp:Label></asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

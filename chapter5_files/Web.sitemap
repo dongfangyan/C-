@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="~\Admin\AdminDefault.aspx" title="管理员主页"  description="新闻网站管理员页面">
+        <siteMapNode url="~\Admin\insertfiles.aspx" title="插入新闻"  description="" />
+        <siteMapNode url="~\Admin\readfiles.aspx" title="查看新闻"  description="" />
+	    	<siteMapNode url="~\Admin\updatefiles.aspx" title="修改新闻内容"  description="" />
+		    <siteMapNode url="~\Admin\updateuser.aspx" title="修改用户密码"  description="" />
+		    <siteMapNode url="~\Admin\deleteuser.aspx" title="删除用户"  description="" />
+		
+    </siteMapNode>
+</siteMap>

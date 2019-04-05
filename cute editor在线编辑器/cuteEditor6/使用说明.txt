@@ -1,0 +1,17 @@
+CuteEditor使用说明－－－郭建东
+　　　　　　　　　　　　　　　
+1、将这里的三个文件夹全部拷贝到网站根目录，然后
+2、在VS2010的工具箱中， 先在工具箱空白处右击选择“添加选择项”，给选项卡添加一外名称为：CuteEditor。再在该选项卡中右击，选择“选择项 ”，在弹出的对话框点击“.NET 
+Frameword组件”，然后下方点击浏览按钮，添加bin文件夹中的CuteEditor.dll文件即可。
+
+3、在web.config文件夹添加：
+<configuration>
+<appSettings>
+    <add key="DictionaryFolder" value="bin" />
+  </appSettings >
+</configuration>
+
+4、使用时，从工具箱中拖运"Editor"控件到需要的位置，运行后即可在线编辑,在线编辑后内容可通过按钮等事件保存到数据库中。
+
+5、在前端页面重现在线编程格式后的内容，也可用"Editor"控件，只需要设该控件的ShowToolBar属性为flase值，则不会显示编辑工具栏，其它属性可根据需要设置
+

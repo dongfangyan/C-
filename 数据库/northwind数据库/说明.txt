@@ -1,0 +1,3 @@
+适用于sql2008版本，非sqlexpress版本！！！
+
+已修改雇员表的photopath路径

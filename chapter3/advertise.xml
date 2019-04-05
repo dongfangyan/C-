@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>要显示的广告图片的URL</ImageUrl>
+    <NavigateUrl>单击图片时的目标URL</NavigateUrl>
+    <AlternateText>无法找到图片时，显示的文字信息</AlternateText>
+    <Impressions>数字，表示广告的权重</Impressions>
+    <Keyword>广告所属的类别</Keyword>
+  </Ad>
+</Advertisements>
+
+

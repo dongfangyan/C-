@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url ="~/Index.aspx" title ="首页">
+    <siteMapNode title="管理员网页"   roles ="*" >
+      <siteMapNode url="~/Adminpages/Usermanage.aspx" title="用户管理" />
+    </siteMapNode>
+    <siteMapNode title="用户网页"   roles ="*" >
+      <siteMapNode url="~/Custompages/Changepwd.aspx" title="修改密码"/>
+    </siteMapNode>
+    <siteMapNode title ="公共网页"   roles ="*">
+      <siteMapNode url ="~/Getpwd.aspx" title ="取回密码"/>
+      <siteMapNode url="~/Login.aspx" title ="登录"/>
+      <siteMapNode url ="~/Registeruser.aspx" title ="注册新用户"/>
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>

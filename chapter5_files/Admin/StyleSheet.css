@@ -1,0 +1,41 @@
+﻿body {
+}
+#top
+{
+	background-image: url('../images/top.jpg');
+	width: 950px;
+	height: 200px;
+	font-family: 黑体;
+	font-size: 28px;
+	color: #FFFFFF;
+	margin: auto;
+	text-align: center;
+	vertical-align: middle;
+}
+#content
+{
+	margin: auto;
+	width: 950px;
+}
+#left
+{
+	width: 200px;
+	height: 820px;
+	background-image: url('../images/1_3.JPG');
+	float: left;
+}
+#right
+{
+	background-image: url('../images/1_5.jpg');
+	float: left;
+	width: 750px;
+	height: 820px;
+}
+#bottom
+{
+	background-image: url('../images/bottom3.jpg');
+	width: 950px;
+	height: 50px;
+	clear: both;
+	margin: auto;
+}

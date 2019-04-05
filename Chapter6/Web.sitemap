@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="Default.aspx" title="首页"  description="My Web Site">
+
+    <siteMapNode url="~\Price\Default.aspx" title="今日报价">
+      <siteMapNode url="~\Price\Beijing.aspx" title ="北京站"/>
+      <siteMapNode url ="~\Price\Shanghai.aspx" title ="上海站"/>
+      <siteMapNode url ="~\Price\Guangzhou.aspx" title ="广州站"/>
+    </siteMapNode>
+
+    <siteMapNode url="~\Products\Default.aspx" title="产品库">
+      <siteMapNode url ="~\Products\Hardware\Default.aspx" title ="硬件">
+        <siteMapNode url ="~\Products\Hardware\Cpu.aspx" title ="CPU"/>
+        <siteMapNode url ="~\Products\Hardware\Harddisk.aspx" title ="硬盘"/>
+        <siteMapNode url ="~\Products\Hardware\Mainboard.aspx" title ="主板"/>
+        <siteMapNode url ="~\Products\Hardware\Memory.aspx" title ="内存"/>
+      </siteMapNode>
+      <siteMapNode url ="~\Products\Software\Default.aspx" title ="软件">
+        <siteMapNode url ="~\Products\Software\Download.aspx" title ="下载中心"/>
+        <siteMapNode url ="~\Products\Software\Information.aspx" title ="软件资讯"/>
+      </siteMapNode>
+    </siteMapNode>
+
+    <siteMapNode url="Forum.aspx" title ="产品论坛" />
+
+  </siteMapNode>
+
+</siteMap>

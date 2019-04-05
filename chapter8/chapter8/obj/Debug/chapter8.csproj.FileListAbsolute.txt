@@ -1,0 +1,5 @@
+E:\教材\教材\新源码\chapter8\chapter8\bin\chapter8.dll
+E:\教材\教材\新源码\chapter8\chapter8\bin\chapter8.pdb
+E:\教材\教材\新源码\chapter8\chapter8\obj\Debug\ResolveAssemblyReference.cache
+E:\教材\教材\新源码\chapter8\chapter8\obj\Debug\chapter8.dll
+E:\教材\教材\新源码\chapter8\chapter8\obj\Debug\chapter8.pdb

@@ -1,0 +1,60 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="siteAdmin.master.cs" Inherits="siteAdmin" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+     <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="page">
+     
+         <div   class="header"> 
+           <asp:Image ID="Image1" runat="server" AlternateText="Loding" Height="150px" ImageUrl="~/images/logo后台管理系统.gif"
+                        ToolTip="pic" Width="960px" />
+                
+         </div>
+        
+            <div class="main">
+            <div class ="leftCol">
+            
+                <br />
+            
+                <asp:HyperLink ID="hypmanager" runat="server"  Font-Bold="True" Font-Size="Small"
+                        ForeColor="#004040" NavigateUrl="~/admin/AdminDefault.aspx">管理首页</asp:HyperLink>
+                <br />
+            
+           <asp:HyperLink ID="hypordermanager" runat="server" Font-Bold="True" Font-Size="Small"
+                        ForeColor="#004040" NavigateUrl="~/Admin/ManageOrderInfo.aspx">订单管理</asp:HyperLink>
+                <br />
+            <asp:HyperLink ID="hypproductmanager" runat="server" Font-Bold="True" Font-Size="Small"
+                        ForeColor="#004040" NavigateUrl="~/Admin/ProductManage.aspx">商品管理</asp:HyperLink>
+
+                <br />
+
+              <asp:HyperLink ID="hyptypemanager" runat="server" Font-Bold="True" Font-Size="Small"
+                        ForeColor="#004040" NavigateUrl="~/Admin/PrpductTypeManage.aspx">类别管理</asp:HyperLink>   <br />
+             <asp:HyperLink ID="hypusermanager" runat="server" Font-Bold="True" Font-Size="Small"
+                        ForeColor="#004040" NavigateUrl="~/Admin/ManageUsers.aspx">用户管理</asp:HyperLink>   <br />
+             <asp:LinkButton ID="btnexit" runat="server" Font-Bold="True" Font-Size="Small"
+                        ForeColor="#004040" OnClick="btnexit_Click">退出系统</asp:LinkButton>   
+                <br />
+                <br />
+            </div>   
+            
+            <div class="rightCol ">
+                <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            
+            </div> 
+           </div> 
+           
+    
+    </form>
+</body>
+</html>

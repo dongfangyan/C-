@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<students text="学生信息列表">
+  <student name="王斌">
+    <studentid>0000001</studentid>
+    <studentsex>男</studentsex>
+    <birthdate>1989-3-6</birthdate>
+    <major>计算机应用技术</major>
+  </student>
+  <student name="李继">
+    <studentid >0000002</studentid>
+    <studentsex>男</studentsex>
+    <birthdate>1989-9-6</birthdate>
+    <major>计算机软件技术</major>
+  </student>
+  <student name="冯珊">
+    <studentid>0000003</studentid>
+    <studentsex>女</studentsex>
+    <birthdate>1990-7-14</birthdate>
+    <major>计算机应用技术</major>
+  </student>
+  <student name="张力">
+    <studentid>000004</studentid>
+    <studentsex>男</studentsex>
+    <birthdate>1991-10-23</birthdate>
+    <major>计算机应用技术</major>
+  </student>
+</students>

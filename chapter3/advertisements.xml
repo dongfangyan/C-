@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="gb2312"?>
+
+<Advertisements>
+   <Ad>
+      <ImageUrl>image/hao123.gif</ImageUrl>
+      <NavigateUrl>http://www.hao123.com</NavigateUrl>
+      <AlternateText>网站hao123广告</AlternateText>
+      <Impressions>100</Impressions>
+      <Keyword>网站</Keyword>
+   </Ad>
+   <Ad>
+      <ImageUrl>image/joyo.jpg</ImageUrl>
+      <NavigateUrl>http://www.amazon.cn/</NavigateUrl>
+      <AlternateText>卓越亚马逊</AlternateText>
+      <Impressions>100</Impressions>
+      <Keyword>网站</Keyword>
+   </Ad>
+
+</Advertisements>
+
